@@ -5,7 +5,7 @@ import AboutTwo from "../components/about-2";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Steelcube Engineering - About 2"} />
+      <SEO pageTitle={"Steelcube Engineering - About"} />
       <AboutTwo />
     </>
   );
