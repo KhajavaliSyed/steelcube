@@ -10,9 +10,9 @@ const Job = () => {
   return (
     <>
       <Header />
-      <BreadcrumbArea acive_menu="Careers" title="Job Listings" />
+      {/* <BreadcrumbArea acive_menu="Careers" title="Job Listings" /> */}
       <JobContentArea />
-      <JobImgGallery />
+      {/* <JobImgGallery /> */}
       <JobPostArea />
       <Footer />
     </>

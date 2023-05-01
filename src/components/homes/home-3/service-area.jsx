@@ -12,7 +12,7 @@ const service_data = [
     list_item: [
       "Engineering, Design and Analysis",
       "Detailing and Estimation",
-      "Connection Design"
+      "Material take-off"
     ],
   },
   {

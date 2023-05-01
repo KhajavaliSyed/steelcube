@@ -22,7 +22,7 @@ const ServiceArea = () => {
                     <img src={item.img} alt="image-here" />
                   </div>
                   <h3 className="it-service__item-title mb-20">
-                    <a href="#">{item.title}</a>
+                    <a href={item.link}>{item.title}</a>
                   </h3>
                   <p className="mb-0">{item.des}</p>
                 </div>

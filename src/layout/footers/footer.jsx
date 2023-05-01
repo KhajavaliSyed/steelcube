@@ -2,6 +2,7 @@ import SocialLinks from '@/src/common/social-links';
 import Link from 'next/link';
 import React from 'react';
 import CommonFooter, { FooterCopyRight } from './common-footer';
+import { color } from 'framer-motion';
 
 // footer_links data
 const footer_links = [
@@ -85,7 +86,8 @@ const Footer = ({tp_border}) => {
                     </div>
                     <div className="tp-footer-cta d-flex align-items-center">
                       <span className="call-icon">
-                        <img src={phone_icon} alt="" />
+                        {/* <img src={phone_icon} alt="" /> */}
+                        <i className="fas fa-phone" color='#ecc322'></i>
                       </span>
                       <span>
                         <span className="d-block mb-0">{address}</span>

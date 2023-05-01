@@ -46,7 +46,7 @@ const HeroBanner = () => {
                 className="da-header-grd-btn d-inline-block mr-20 mb-30 wow tpfadeUp"
                 data-wow-delay=".3s"
               >
-                <Link href="/services" className="tp-btn">
+                <Link href="/service" className="tp-btn">
                   Our Services
                   <span className="ml-10">
                     <i className="fal fa-long-arrow-right"></i>
@@ -92,7 +92,7 @@ const HeroBanner = () => {
                   <a href="mailto:info@steelcubeeng.com">info@steelcubeeng.com</a>
                 </span>
                 <span className="float-end">
-                  <a href="mailto:info@steelcubeeng.com">
+                  <a href="/portfolio">
                     Our Portfolio <i className="fal fa-long-arrow-right"></i>
                   </a>
                 </span>

@@ -3,12 +3,11 @@ import React from 'react';
 
 
 const job_details_content = {
-    job_about: "About Jobs",
-    job_description: <>At Gencio, we are building preventive, continuous and personalized primary
-                        healthcare that is made affordable and scalable by machine
-                        learning. Our ambition is to transform healthcare by building trustworthy products designed
-                        for both people and healthcare professionals. Our
-                        journey has just started, and we’re currently focusing on women’s health… Come join us! <br />
+    job_about: "About Role",
+    job_description: <>At Steelcube, we offer competitive salaries, comprehensive benefits packages, and opportunities 
+    for professional growth and development. Our team is passionate about what we do, and we're committed to delivering 
+    exceptional results for our clients. If you're interested in being part of an innovative and dynamic organization, we encourage you to apply today.
+    <br />
 
                         <br />
 

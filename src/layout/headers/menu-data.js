@@ -29,14 +29,9 @@ const menu_data = [
   {
     id: 4,
     mega_menu: false,
-    has_dropdown: true,
-    title: "Expertise",
-    link: "/expertise",
-    sub_menus: [
-      { link: "/SDS2-Expertise", title: "SDS2 Expertise" },
-      { link: "/Tekla-Expertise", title: "Tekla Expertise" },
-      { link: "/AutoCad-Expertise", title: "AutoCad Expertise" },
-    ],
+    has_dropdown: false,
+    title: "Projects",
+    link: "/portfolio",
   },
   // {
   //   id: 4,

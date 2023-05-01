@@ -7,18 +7,18 @@ import FeatureArea from "./feature-area";
 import ItCtaArea from "./it-cta-area";
 import ServiceDetailsArea from "./service-details-area";
 
-const StructuralSteel = () => {
+const ServiceDetails = () => {
   return (
     <>
       <Header />
       {/* <BreadcrumbArea acive_menu="Service Details" title="What We Do" /> */}
       <ServiceDetailsArea />
       <FeatureArea />
-      <FaqArea />
+      {/* <FaqArea /> */}
       <ItCtaArea />
       <Footer />
     </>
   );
 };
 
-export default StructuralSteel;
+export default ServiceDetails;
