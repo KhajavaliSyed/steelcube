@@ -1,6 +1,6 @@
 import SocialLinks from '@/src/common/social-links';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import CommonFooter, { FooterCopyRight } from './common-footer';
 import { color } from 'framer-motion';
 
@@ -54,6 +54,28 @@ const {footer_logo, about, about_des, phone_icon ,address, phone} = footer_conte
 
 
 const Footer = ({tp_border}) => {
+    const [email, setEmail] = useState("");
+    const handleSubmit = async e => {
+      e.preventDefault();
+      await fetch("https://api.sendinblue.com/v3/smtp/email", {
+      body: JSON.stringify({
+        htmlContent : "<html><body><img src=\"https://steelcube.vercel.app/assets/img/logo/sc-logo.png\"/><h1>Welcome to Steelcube Engineering</h1><p>Thank you for subscribing to Steelcube Engineering. We will get back to you soon.</p></body></html>",
+        //textContent: message,
+        to: [{"name": "", "email": email}],
+        sender: {"name" : "Steelcube Engineering", "email":"info@steelcubeeng.com"},
+        replyTo: {"name" : "Steelcube Engineering", "email":"info@steelcubeeng.com"},
+        subject: "Thank you for contacting Steelcube Engineering",
+        message: "Thank you for contacting Steelcube Engineering"
+      }),
+      headers: {
+        "accept": "application/json",
+        "api-key": "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",
+        "content-type": "application/json"
+      },
+      method: "POST"
+    }).then(response => response.json()).then(response => console.log(response)).catch(err => console.error(err));
+    
+    }
     return (
       <>
         <footer>
@@ -109,11 +131,11 @@ const Footer = ({tp_border}) => {
                       <p>Subscribe to get the latest news from us</p>
 
                       <div className="tp-footer-from p-relative">
-                        <form onSubmit={(e) => e.preventDefault()}>
+                        <form onSubmit={handleSubmit}>
                           <span>
                             <i className="fas fa-envelope-open"></i>
                           </span>
-                          <input type="email" placeholder="Enter your mail" />
+                          <input type="email" name="email" id ="email" required placeholder="Enter your mail" onChange={e => setEmail(e.target.value)}/>
                           <button type="submit">
                             <i className="fas fa-paper-plane"></i> <b></b>
                           </button>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CommonFooter, { FooterCopyRight } from './common-footer';
 
 
@@ -7,10 +7,47 @@ const footer_3_content ={
     title: "Subscribe to get the latest news from us"
 }
 
-const {subscribe, title} = footer_3_content
+const {subscribe, title} = footer_3_content;
 
 
 const FooterThree = ({style_4}) => {
+    const [email, setEmail] = useState("");
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        await fetch("https://api.sendinblue.com/v3/contacts?limit=50&offset=0&sort=desc", {
+        body: JSON.stringify({
+          "email": email,
+          "emailBlacklisted": false,
+          "smsBlacklisted": false,
+          "updateEnabled": false,
+        }),
+        headers: {
+          "accept": "application/json",
+          "api-key": "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",
+          "content-type": "application/json"
+        },
+        method: "POST"
+        }).then(response => response.json()).then(response => console.log(response)).catch(err => console.error(err));
+      
+        await fetch("https://api.sendinblue.com/v3/smtp/email", {
+        body: JSON.stringify({
+            htmlContent : "<html><body><img src=\"https://steelcube.vercel.app/assets/img/logo/sc-logo.png\"/><h1>Welcome to Steelcube Engineering</h1><p>Thank you for subscribing to Steelcube Engineering. We will get back to you soon.</p></body></html>",
+            //textContent: message,
+            to: [{"name": "Steelcube", "email": email}],
+            sender: {"name" : "Steelcube Engineering", "email":"info@steelcubeeng.com"},
+            replyTo: {"name" : "Steelcube Engineering", "email":"info@steelcubeeng.com"},
+            subject: "Thank you for contacting Steelcube Engineering",
+            message: "Thank you for contacting Steelcube Engineering"
+        }),
+        headers: {
+            "accept": "application/json",
+            "api-key": "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",
+            "content-type": "application/json"
+        },
+        method: "POST"
+        }).then(response => response.json()).then(response => console.log(response)).catch(err => console.error(err));
+    
+    }
     return (
         <>
     <footer>
@@ -52,12 +89,15 @@ const FooterThree = ({style_4}) => {
                                 <p> {title}</p>
 
                                 <div className="tp-footer-from mb-5 p-relative">
-                                    <form onSubmit={(e) => e.preventDefault()}>
-                                        <span><i className="fas fa-envelope-open"></i></span>
-                                        <input type="email" placeholder="Enter your mail" />
-                                        <button type="submit"><i className="fas fa-paper-plane"></i>
-                                        </button>
-                                    </form>
+                                <form onSubmit={handleSubmit}>
+                                    <span>
+                                        <i className="fas fa-envelope-open"></i>
+                                    </span>
+                                    <input type="email" name="email" id ="email" required placeholder="Enter your mail" onChange={e => setEmail(e.target.value)}/>
+                                    <button type="submit">
+                                        <i className="fas fa-paper-plane"></i> <b></b>
+                                    </button>
+                                </form>
 
                                 </div>
                                 <p className="tp-form-note"> <span>**</span> We are not going to save your data </p>
