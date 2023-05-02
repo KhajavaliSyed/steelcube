@@ -7,32 +7,32 @@ const project_data = [
   {
     id: 1,
     img: "/assets/img/project/tp-da-pt-1.jpg",
-    name: "Company Case Study",
-    title: "UX, Website Design",
+    name: "Commercial Building - OH, USA",
+    title: "Total Tonnage - 283",
   },
   {
     id: 2,
     img: "/assets/img/project/tp-da-pt-2.jpg",
-    name: "Company Case Study",
-    title: "UX, Website Design",
+    name: "Commercial Building - MO, USA",
+    title: "Total Tonnage - 613",
   },
   {
     id: 3,
     img: "/assets/img/project/tp-da-pt-3.jpg",
-    name: "Company Case Study",
-    title: "UX, Website Design",
+    name: "Residential Building",
+    title: "TOTAL TONNAGE : 150 MT",
   },
   {
     id: 4,
     img: "/assets/img/project/tp-da-pt-4.jpg",
-    name: "Company Case Study",
-    title: "UX, Website Design",
+    name: "Commercial Building - TX, USA",
+    title: "Total Tonnage- 18.4",
   },
   {
     id: 5,
     img: "/assets/img/project/tp-da-pt-5.jpg",
-    name: "Company Case Study",
-    title: "UX, Website Design",
+    name: "Bridge",
+    title: "Miscellaneous",
   },
 ];
 
@@ -123,9 +123,10 @@ const ProjectArea = () => {
                         <img src={item.img} alt="slider-img" />
                         <div className="da-project-item__info">
                           <span> {item.title}</span>
-                          <h3 className="da-project-item__title">
+                          <h3 className="da-project-item__title">{item.name}</h3>
+                          {/* <h3 className="da-project-item__title">
                             <Link href="/portfolio-4"> {item.name}</Link>
-                          </h3>
+                          </h3> */}
                         </div>
                     </SwiperSlide>
                   ))}
@@ -136,7 +137,7 @@ const ProjectArea = () => {
             <div className="col-12">
               <div className="da-pj-btn-wrapper">
                 <Link
-                  href="/portfolio-5"
+                  href="/portfolio"
                   className="tp-border-btn br-btn-bg-dark"
                 >
                   More Works

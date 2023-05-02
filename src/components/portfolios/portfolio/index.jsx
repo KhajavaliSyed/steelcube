@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <>
       <Header />
-      <BreadcrumbArea acive_menu="Portfolio" title="Case Study" />
+      {/* <BreadcrumbArea acive_menu="Portfolio" title="Case Study" /> */}
       <PortfolioArea />
       <Footer tp_border={true} />
     </>

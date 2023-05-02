@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@novu/notification-center": "^0.14.0",
+    "@vercel/kv": "^0.1.0",
     "bootstrap": "^5.2.3",
     "framer-motion": "^10.1.0",
     "next": "13.1.6",

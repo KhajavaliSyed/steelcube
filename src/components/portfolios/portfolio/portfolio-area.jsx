@@ -62,16 +62,17 @@ const PortfolioArea = () => {
                   </div>
                   <div className="pf-single-item__info">
                     <span>{item.title}</span>
-                    <h3 className="pf-single-item__title">
+                    <h3 className="pf-single-item__title">{item.name}</h3>
+                    {/* <h3 className="pf-single-item__title">
                       <Link href="/portfolio-details">{item.name}</Link>
-                    </h3>
+                    </h3> */}
                   </div>
                 </div>
               </div>
             ))}
           </motion.div>
 
-          <div className="pt-istop-btn-wrapper text-center mt-30">
+          {/* <div className="pt-istop-btn-wrapper text-center mt-30">
             <a href="#" className="tp-common-btn">
               load more
               <span>
@@ -79,7 +80,7 @@ const PortfolioArea = () => {
                 <i className="fal fa-plus"></i>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

@@ -1,24 +1,26 @@
 import React from "react";
 
 const contact_data = [
-  {
-    id: 1,
-    titel: "Become a client",
-    email: "info@gencio-works.com",
-    phone: "720.797.2031",
-    tel: "78568065900",
-  },
+  // {
+  //   id: 1,
+  //   titel: "Become a client",
+  //   email: "info@gencio-works.com",
+  //   phone: "720.797.2031",
+  //   tel: "78568065900",
+  // },
   {
     id: 2,
-    titel: "Media inquiries",
-    email: "info@gencio-works.com",
+    titel: "United States Office",
+    email: "info@steelcubeeng.com",
+    address: "Texas",
     phone: "720.797.2031",
     tel: "78568065900",
   },
   {
     id: 3,
-    titel: "General",
-    email: "info@gencio-works.com",
+    titel: "India Office",
+    email: "info@steelcubeeng.com",
+    address: "KTC Illumination, Vittal Rao Nagar, HITEC City, Hyderabad, Telangana 500081",
     phone: "720.797.2031",
     tel: "78568065900",
   },
@@ -27,8 +29,9 @@ const contact_data = [
 // contact_info
 const contact_info = {
   img: "/assets/img/cta/contact-page-1.jpg",
-  hi_text: "Say Hello",
-  title: <>The feeling is mutual. These are the best ways to make it happen.</>,
+  hi_text: "Welcome",
+  title: <>At Steelcube Engineering, we bring your structural steel projects to life with precision and expertise. 
+   </>,
 };
 
 const { img, hi_text, title } = contact_info;
@@ -40,9 +43,9 @@ const ContactArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="contact-img-1 pb-100 w-img">
+              {/* <div className="contact-img-1 pb-100 w-img">
                 <img src={img} alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="row">
@@ -51,16 +54,17 @@ const ContactArea = () => {
             </div>
             <div className="col-lg-10">
               <div className="tp-contact-page-info ">
-                <h3 className="tp-section__title pb-60 mb-60 tp-border-bottom">
+                <h6 className="tp-section__title pb-60 mb-60 tp-border-bottom">
                   {title}
-                </h3>
+                </h6>
               </div>
               <div className="row">
                 {contact_data.map((item, i) => (
-                  <div key={i} className="col-lg-3">
+                  <div key={i} className="col-lg-6">
                     <div className="contact-cta-item mb-30">
                       <b>{item.titel}</b> <br />
                       <a href={`mailto:${item.email}`}>{item.email}</a> <br />
+                      <a >{item.address}</a> <br />
                       <a href={`tel:${item.tel}`}>{item.phone}</a>
                     </div>
                   </div>
