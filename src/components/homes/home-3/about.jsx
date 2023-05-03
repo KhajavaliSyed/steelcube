@@ -48,7 +48,7 @@ const About = () => {
                       <span>
                         <i className="fal fa-check"></i>
                       </span>
-                      State-of-the-Art Infrastructure
+                      Industry-Standard Adherece for Global Services
                     </li>
                     <li>
                       <span>

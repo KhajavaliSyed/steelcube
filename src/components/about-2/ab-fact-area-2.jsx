@@ -5,19 +5,20 @@ import React from 'react';
 const ab_fact_data = [
     {
         id: 1,
-        count_number: 328,
-        title: "Successful projects",
-    },
-    {
-        id: 2,
         count_number: 80,
         title: "Experienced Engineers",
     },
     {
-        id: 3,
-        count_number: 100,
+        id: 2,
+        count_number: 60,
         title: "Global Clients",
     },
+    {
+      id: 3,
+      count_number: 200,
+      title: "Successful Projects",
+  },
+  
 ]
 
 const AbFactAreaTwo = () => {

@@ -8,7 +8,7 @@ const service_details_content = {
     desctiption: <>Our detailers are expertly trained and organized in a way 
     that enables us to provide accurate and timely services. Our focus on 
     efficiency means that our services are both cost-effective and reliable, saving you valuable time.</>,
-    phone: "785 680 659 00 ",
+    phone: "209 682 0710 ",
 }
 const {title, desctiption, phone}  = service_details_content
 

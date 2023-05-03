@@ -8,7 +8,7 @@ const feature_content_data = {
     list_one: [
         <>Customized Estimation Solutions</>,
         <>Accurate and Timely Estimation Reports</>,
-        <>Expertise in SDS/2 and Tekla Structure (X-steel)</>,
+        <>Expertise in SDS/2 and Tekla Structure</>,
         
     ],
 

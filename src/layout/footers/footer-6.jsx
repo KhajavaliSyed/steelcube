@@ -19,17 +19,16 @@ const FooterSix = () => {
                                     Get In Touch
                                 </h3>
                                 <div className="tp-footer-cta d-flex align-items-center mb-30">
-                                    <span className="call-icon"><img src="/assets/img/icons/law-call.png" alt="" /></span>
+                                    <span className="call-icon"></span>
                                     <p className="mb-0">
-                                        <span>1300 Don City, NYC</span> <br />
-                                        <b><a href="callto:0002229090"> Call Us: 000-222-9090 </a></b>
+                                        <span>30 N Gould St Ste R, Sheridan, WY, 82801</span> <br />
+                                        <b><img src="/assets/img/icons/law-call.png" alt="" /><a href="callto:2096820710"> Call Us: 209 682 0710 </a></b>
                                     </p>
                                 </div>
                                 <div className="tp-footer-cta d-flex align-items-center mb-30">
                                     <span className="call-icon"><img src="/assets/img/icons/law-mail.png" alt="" /></span>
                                     <p className="mb-0">
-                                        <span>1300 Don City, N</span> <br />
-                                        <b><a href="mailto:info@gencio.com"> info@gencio.com </a></b>
+                                        <b><a href="mailto:info@gencio.com"> info@steelcubeeng.com </a></b>
                                     </p>
                                 </div>
                             </div>

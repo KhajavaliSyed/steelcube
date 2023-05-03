@@ -65,15 +65,15 @@ const FooterThree = ({style_4}) => {
                                     <span className="call-icon"><img src="/assets/img/footer/footer-rbg-call.png"
                                             alt="" /></span>
                                     <span>
-                                         <span className="d-block mb-0">1300 Don City, NYC</span>
-                                        <b><a href="callto:0002229090"> Call Us: 000-222-9090 </a></b>
+                                         <span className="d-block mb-0">30 N Gould St Ste R, Sheridan, WY, 82801</span>
+                                        <b><a href="callto:2096820710"> Call Us: 209 682 0710 </a></b>
                                     </span>
                                 </div>
                                 <div className="tp-footer-cta d-flex align-items-center mb-30">
                                     <span className="call-icon"><img src="/assets/img/footer/message-rgb-ison.png"
                                             alt="" /></span>
                                     <span>
-                                        <span className="d-block mb-0">1300 Don City, N</span>
+                                        
                                         <b><a href="mailto:info@gencio.com"> info@steelcubeeng.com </a></b>
                                     </span>
                                 </div>

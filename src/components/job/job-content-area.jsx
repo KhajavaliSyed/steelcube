@@ -7,7 +7,7 @@ const job_content  = {
     title: "Steelcube is hiring",
     description: <>Steelcube is a rapidly growing company in the structural engineering and steel detailing industry, 
     and we're currently hiring for a range of positions. If you're a highly skilled and motivated individual looking 
-    to join a dynamic team, we want to hear from you. Our open positions include structural engineers, steel detailers, project managers, and quality control specialists.
+    to join a dynamic team, we want to hear from you. Our open positions include steel detailers, modelers, checkers, project managers, and quality control specialists.
     </>,
     btn_text : "apply now",
 }
@@ -31,7 +31,7 @@ const JobContentArea = () => {
                         <p>{description}</p>
                      </div>
                   </div>
-                  <div className="job-btn-wrapper text-center">
+                  {/* <div className="job-btn-wrapper text-center">
                      <Link href="/job-details" className="tp-btn wow tpfadeUp">
                         {btn_text}
                         <span>
@@ -39,7 +39,7 @@ const JobContentArea = () => {
                            <i className="fal fa-long-arrow-right"></i>
                         </span>
                      </Link>
-                  </div>
+                  </div> */}
                </div>
             </div>
          </div>

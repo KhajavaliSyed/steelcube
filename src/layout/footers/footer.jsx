@@ -15,9 +15,9 @@ const footer_links = [
          {title: "About", link: "/about"},
          {title: "Affiliates", link: "/faq"},
          {title: "Careers", link: "/job"},
-         {title: "Legal & Privacy", link: "/privacy-policy"},
+         {title: "Legal & Privacy", link: "#"},
          {title: "Our Team", link: "/team"},
-         {title: "Refund Policy", link: "/privacy-policy"},
+         {title: "Refund Policy", link: "#"},
          {title: "Terms & Rules", link: "/terms"},
          {title: "Get In Touch", link: "/contact"},
          {title: "other", link: "/"},
@@ -45,8 +45,8 @@ const footer_content ={
    about: "About Us",
    about_des: <>Welcome to Steelcube Engineering, your trusted partner in structural engineering design. We specialize in providing high-quality services to fabricators and builders who need reliable structural steel connection design solutions.</>,
    phone_icon: "/assets/img/footer/call-icon.png",
-   address: <>1300 Don City, NYC</>,
-   phone: <>000-222-9090</>,
+   address: <>30 N Gould St Ste R, Sheridan, WY, 82801</>,
+   phone: <>209 682 0710</>,
    
 }
 

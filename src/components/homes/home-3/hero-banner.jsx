@@ -30,7 +30,7 @@ const HeroBanner = () => {
                             1000,
                             'Precision', 
                             3000,
-                            'Qaulity',
+                            'Quality',
                             2000 
                           ]}
                           wrapper="div"

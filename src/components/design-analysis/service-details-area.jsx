@@ -7,7 +7,7 @@ const service_details_content = {
     title: "Expert Structural Engineering Design Services",
     desctiption: <>As a trusted name in the industry, we provide comprehensive structural engineering design services to clients across the Globe. 
     With our in-house team of skilled structural engineers, we are able to deliver flawless engineering detailing services down to the smallest detail.</>,
-    phone: "785 680 659 00 ",
+    phone: "209 682 0710 ",
 }
 const {title, desctiption, phone}  = service_details_content
 

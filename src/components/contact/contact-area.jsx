@@ -12,17 +12,17 @@ const contact_data = [
     id: 2,
     titel: "United States Office",
     email: "info@steelcubeeng.com",
-    address: "Texas",
-    phone: "720.797.2031",
-    tel: "78568065900",
+    address: "30 N Gould St Ste R, Sheridan, WY, 82801",
+    phone: "209 682 0710",
+    tel: "2096820710",
   },
   {
     id: 3,
     titel: "India Office",
     email: "info@steelcubeeng.com",
     address: "KTC Illumination, Vittal Rao Nagar, HITEC City, Hyderabad, Telangana 500081",
-    phone: "720.797.2031",
-    tel: "78568065900",
+    phone: "950 240 2484",
+    tel: "9502402484",
   },
 ];
 
@@ -62,7 +62,7 @@ const ContactArea = () => {
                 {contact_data.map((item, i) => (
                   <div key={i} className="col-lg-6">
                     <div className="contact-cta-item mb-30">
-                      <b>{item.titel}</b> <br />
+                      <h3>{item.titel}</h3> <br />
                       <a href={`mailto:${item.email}`}>{item.email}</a> <br />
                       <a >{item.address}</a> <br />
                       <a href={`tel:${item.tel}`}>{item.phone}</a>

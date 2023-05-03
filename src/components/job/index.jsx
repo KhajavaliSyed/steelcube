@@ -13,7 +13,7 @@ const Job = () => {
       {/* <BreadcrumbArea acive_menu="Careers" title="Job Listings" /> */}
       <JobContentArea />
       {/* <JobImgGallery /> */}
-      <JobPostArea />
+      {/* <JobPostArea /> */}
       <Footer />
     </>
   );

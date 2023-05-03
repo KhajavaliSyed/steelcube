@@ -6,33 +6,33 @@ import  Link  from 'next/link';
 const project_data = [
   {
     id: 1,
-    img: "/assets/img/project/tp-da-pt-1.jpg",
-    name: "Commercial Building - OH, USA",
-    title: "Total Tonnage - 283",
+    img: "/assets/img/project/School.png",
+    name: "Commercial Building - Indiana, USA",
+    title: "Total Tonnage - 2000 MT",
   },
   {
     id: 2,
-    img: "/assets/img/project/tp-da-pt-2.jpg",
-    name: "Commercial Building - MO, USA",
-    title: "Total Tonnage - 613",
+    img: "/assets/img/project/Hospital.png",
+    name: "Residential Building - CA, USA",
+    title: "TOTAL TONNAGE - 600 MT",
   },
   {
     id: 3,
-    img: "/assets/img/project/tp-da-pt-3.jpg",
-    name: "Residential Building",
-    title: "TOTAL TONNAGE : 150 MT",
+    img: "/assets/img/project/Industrial bldg.png",
+    name: "Industrial Building - FL, USA",
+    title: "Total Tonnage - 400 MT",
   },
   {
     id: 4,
-    img: "/assets/img/project/tp-da-pt-4.jpg",
-    name: "Commercial Building - TX, USA",
-    title: "Total Tonnage- 18.4",
+    img: "/assets/img/project/HB3 CONVEYOR.png",
+    name: "HB3 CONVEYOR - IA, USA",
+    title: "Total Tonnage - 300 MT",
   },
   {
     id: 5,
-    img: "/assets/img/project/tp-da-pt-5.jpg",
-    name: "Bridge",
-    title: "Miscellaneous",
+    img: "/assets/img/project/Airfield.png",
+    name: "Commercial Building - IL, USA",
+    title: "Total Tonnage - 100 MT",
   },
 ];
 

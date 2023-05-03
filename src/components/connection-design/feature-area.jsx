@@ -4,7 +4,7 @@ import React from 'react';
 const feature_content_data = {
     title_one: "Key Services for Connection Design",
     description: <>Our key services for structural steel connection design include structural connection drawings, 
-    analysis, and designs to meet industry standards such as ASD, LRFD, and IS. Our experienced team also provides detailed calculations with complete reports.</>,
+    analysis, and designs to meet industry standards such as ASD, LRFD etc. Our experienced team also provides detailed calculations with complete reports.</>,
     list_one: [
         <>Expert Structural Steel Connection Design Services</>,
         <>Innovating for Better Work Processes and Deliverables</>,

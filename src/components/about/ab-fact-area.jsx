@@ -4,7 +4,7 @@ import React from 'react';
 const about_feature_data = [
     {
         id: 1,
-        count: 328,
+        count: 2,
         title: "Successful projects",
         description: <>You every can't thing seed subdue subdue light female.</>,
     },

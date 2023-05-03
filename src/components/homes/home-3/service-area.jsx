@@ -30,13 +30,13 @@ const service_data = [
   {
     id: 3,
     counter: "03",
-    title:  <> Design <br /> Analysis </> ,
-    des:  <>Our reputation as a leader in structural engineering design is widely recognized.</>,
+    title:  <> Accurate <br /> Estimation </> ,
+    des:  <>We utilize the latest technology to create detailed 3D models for steel structure estimation.</>,
     delay: ".5s",
     list_item: [
-      "Structural Connection Design",
-      "Value engineering services",
-      "Preliminary engineering consultation"
+      "Understanding of requirements",
+      "Comprehensive 3D modeling",
+      "SDS/2 and Tekla Structure"
     ],
   },
 ];

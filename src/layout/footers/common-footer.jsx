@@ -10,9 +10,9 @@ const footer_links = [
     id: "company",
     links: [
       { title: "About", link: "/about" },
-      { title: "FAQ", link: "/faq" },
+      { title: "FAQ", link: "#" },
       { title: "Careers", link: "/job" },
-      { title: "Legal & Privacy", link: "/privacy-policy" },
+      { title: "Legal & Privacy", link: "#" },
       // { title: "Our Team", link: "/team" },
       // { title: "Refund Policy", link: "/privacy-policy" },
       // { title: "Terms & Rules", link: "/terms" },
@@ -84,7 +84,7 @@ export const FooterCopyRight = ({style_3, style_7, style_9}) => {
             <div className="tp-footer-menu text-end">
               <ul>
                 <li>
-                  <Link href="/faq">FAQ</Link>
+                  <Link href="#">FAQ</Link>
                 </li>
                 <li>
                   <Link href="/about">Insights</Link>

@@ -8,7 +8,7 @@ const service_details_content = {
     desctiption: <>Tour strategy focuses on digital marketing, new technologies or
                     transforming your organization to serve your customers in a digital
                     way, we will guide your team in creating.</>,
-    phone: "785 680 659 00 ",
+    phone: "209 682 0710 ",
 }
 const {title, desctiption, phone}  = service_details_content
 

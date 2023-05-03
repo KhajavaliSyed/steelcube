@@ -7,7 +7,7 @@ const team_details_content = {
     description: <>The spectacular Harbour Central is a brand new development in London’s
                     The Docklands, comprising a total of 642 private apartments divided across five
                     residential buildings, along with a leisure complex.</>,
-    phone: "785 680 659 00",
+    phone: "209 682 0710",
     email : "info@webexample.com",
     address: "14/A, Kilix Home Tower, NYC"
 }

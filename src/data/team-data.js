@@ -29,32 +29,32 @@ const team_data = [
     {
         id: 4,
         img: "/assets/img/team/ca-team-1.jpg",
-        name: "Asonio D. Dowson",
-        title: "Founder",
+        name: "Vijaya Bhaskar P",
+        title: "President",
         delay: ".3s",
 
     },
     {
         id: 5,
         img: "/assets/img/team/ca-team-2.jpg",
-        name: "Berat Battle",
-        title: "Head Of Design",
+        name: "Bharath Thirumalasetty",
+        title: "Vice President - Sales",
         delay: ".4s",
 
     },
     {
         id: 6,
         img: "/assets/img/team/ca-team-3.jpg",
-        name: "Matthew Swanson",
-        title: "CEO",
+        name: "Prudhvi Thirumalasetty",
+        title: "Vice President - Production",
         delay: ".5s",
 
     },
     {
         id: 7,
         img: "/assets/img/team/ca-team-4.jpg",
-        name: "Kirsty Mcdermott",
-        title: "Support Engineer",
+        name: "T.V.N.S Pramod",
+        title: "General Manager",
         delay: ".6s",
 
     },

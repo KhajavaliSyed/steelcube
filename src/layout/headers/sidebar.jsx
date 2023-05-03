@@ -46,10 +46,10 @@ const Sidebar = ({isActive, setIsActive}) => {
                     </span>
                 </div>
                 <div className="tp-offcanvas-cta d-flex align-items-center pb-20  mb-30">
-                    <span className="icon mr-20"><img src="/assets/img/icons/ofc-locaiton.png" alt="" /></span>
+                    <span className="icon mr-20"></span>
                     <span>
-                         <span className="d-block mb-0">1300 Don City, NYC</span>
-                        <b><a href="callto:0002229090"> Call Us: 000-222-9090 </a></b>
+                         <span className="d-block mb-0">30 N Gould St Ste R, Sheridan, WY, 82801</span>
+                        <b><img src="/assets/img/icons/ofc-locaiton.png" alt="" /><a href="callto:2096820710"> Call Us: 209 682 0710 </a></b>
                     </span>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const service_details_content = {
     title: "Meeting Industry Standards for Steel Design",
     desctiption: <>At Steelcube Engineering, we provide expert structural steel connection design services for fabricators and builders. 
     Our seasoned team of in-house structural engineers specializes in connection design for both industrial and commercial structures.</>,
-    phone: "785 680 659 00 ",
+    phone: "209 682 0710 ",
 }
 const {title, desctiption, phone}  = service_details_content
 

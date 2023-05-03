@@ -32,7 +32,7 @@ const service_data = [
         link: "/estimation",
         img: "/assets/img/services/icon/it-service-3.png",
         title: "Estimation",
-        des: <>Our SDS/2 and Tekla Structure (X-steel) models are designed to provide accurate and detailed information that can be used for estimating, fabrication, and erection.</>,
+        des: <>Our SDS/2 and Tekla Structure models are designed to provide accurate and detailed information that can be used for estimating, fabrication, and erection.</>,
         counter: "01", 
         delay: ".3s"
     },
@@ -217,7 +217,7 @@ const service_data = [
         icon: "flaticon-computer",
         link: "#",
         img: "/assets/img/services/icon/service-icon-3.png",
-        title: "SDS/2 and Tekla Structure (X-steel)",
+        title: "SDS/2 and Tekla Structure",
         des: <>Our typical customer doesn’t want to be distracted by IT Services that don’t add direct value to their customers.</>,
         counter: "", 
         delay: ".4s",

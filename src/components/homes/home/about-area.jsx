@@ -102,7 +102,7 @@ const AboutArea = () => {
                     </span>
                     <b>
                       <span>Phone number</span> <br />
-                      <a href="tel:78568065900">785 680 659 00</a>
+                      <a href="tel:78568065900">209 682 0710</a>
                     </b>
                   </div>
                 </div>
