@@ -331,7 +331,7 @@ const service_data = [
         icon: "flaticon-computer",
         link: "#",
         img: "",
-        title: "Modeling and Analysis",
+        title: "Design, Modeling and Analysis",
         des: <>Our typical customer doesn’t want to be distracted by IT Services that don’t add direct value to their customers.</>,
         counter: "01", 
         delay: ".4s",

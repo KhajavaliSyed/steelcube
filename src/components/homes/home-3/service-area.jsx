@@ -7,7 +7,7 @@ const service_data = [
     id: 1,
     counter: "01",
     title: <> Structural <br /> Steel </> ,
-    des:  <>Our end-to-end steel structural detailing services adhere to AISC, NISD, CISC, OSHA, and ASTM standards.</>,
+    des:  <>Our end-to-end steel structural detailing services adhere to AISC, NISD, CISC and ASTM standards.</>,
     delay: ".4s",
     list_item: [
       "Engineering, Design and Analysis",

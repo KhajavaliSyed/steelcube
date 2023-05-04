@@ -18,7 +18,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                 <div className="tp-offcanvas__logo mb-50">
                     <Link href="/"><img src="/assets/img/logo/sc-logo.png" alt="sticky-logo" /></Link>
                 </div>
-                <p> We bring your ideas to better product. Base in NYC</p>
+                <p> At Steelcube Engineering, we bring your structural steel projects to life with precision and expertise.</p>
                 <div className="tp-offcanvas__social">
                     <span> <a href="#"><i className="fab fa-facebook-f"></i></a></span>
                     <span> <a href="#"><i className="fab fa-twitter"></i></a></span>

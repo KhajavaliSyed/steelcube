@@ -107,16 +107,18 @@ const Footer = ({tp_border}) => {
                       <p className="pr-40">{about_des}</p>
                     </div>
                     <div className="tp-footer-cta d-flex align-items-center">
-                      <span className="call-icon">
-                        {/* <img src={phone_icon} alt="" /> */}
-                        <i className="fas fa-phone" color='#ecc322'></i>
-                      </span>
-                      <span>
-                        <span className="d-block mb-0">{address}</span>
-                        <b>
+                      
+                      <b>
+                        
+                        <span className="d-block mb-0"><i className="fas fa-location" color='#ecc322'></i>{address}</span>
+                        
+                          <span className="call-icon">
+                            {/* <img src={phone_icon} alt="" /> */}
+                            <i className="fas fa-phone" color='#ecc322'></i>
+                          </span>
                           <a href={`callto: ${phone}`}> Call Us: {phone}</a>
-                        </b>
-                      </span>
+                        
+                      </b>
                     </div>
                   </div>
                   {/* Coommon Footer start */}

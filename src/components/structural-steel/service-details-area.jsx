@@ -30,7 +30,7 @@ const ServiceDetailsArea = () => {
                                   <span><i className={item.icon}></i></span>
                                   {/* <!-- flaticon-analytics --> */}
                                </div>
-                               <h3 className="sv-detials-sv-item__title"><Link href="#"> {item.title}</Link></h3>
+                               <h3 className="sv-detials-sv-item__title">{item.title}</h3>
                                <span className="counter-number">{item.counter}</span>
                             </div>
                          </div>

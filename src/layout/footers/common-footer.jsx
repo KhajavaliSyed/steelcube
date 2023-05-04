@@ -65,7 +65,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Designed and Developed By <a href="#">@SteelCube Engineering LLC</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Designed and Developed By <a href="#">@SteelCube LLC</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;

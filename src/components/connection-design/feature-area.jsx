@@ -20,7 +20,7 @@ const feature_content_data = {
         {
             id: 1,
             img: "/assets/img/icons/bulb-icon.png",
-            title: "Engineering and Stamped Calculations for Connections"
+            title: "Stamped Calculations for Connections"
         },
         {
             id: 2,
