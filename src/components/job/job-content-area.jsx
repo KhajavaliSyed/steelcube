@@ -7,7 +7,8 @@ const job_content  = {
     title: "Steelcube is hiring",
     description: <>Steelcube is a rapidly growing company in the structural engineering and steel detailing industry, 
     and we're currently hiring for a range of positions. If you're a highly skilled and motivated individual looking 
-    to join a dynamic team, we want to hear from you. Our open positions include steel detailers, modelers, checkers, project managers, and quality control specialists.
+    to join a dynamic team, we want to hear from you. Our open positions include Steel Detailers, Modelers, Checkers, 
+    Project Managers, Sales and Quality Control Specialists.
     </>,
     btn_text : "apply now",
 }

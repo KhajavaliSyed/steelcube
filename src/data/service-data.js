@@ -4,7 +4,7 @@ const service_data = [
     // service data home 2
     {
         id: 1,
-        icon: "flaticon-mountains",
+        icon: "fas fa-pen-ruler fa-6x",
         link: "/structural-steel",
         img: "/assets/img/services/icon/it-service-1.png",
         title: "Structural Steel Detailing",
@@ -12,6 +12,7 @@ const service_data = [
     },
     {
         id: 2,
+        icon: "fas fa-ruler-combined fa-6x",
         link: "/connection-design",
         img: "/assets/img/services/icon/it-service-2.png",
         title: "Connection Design",
@@ -20,6 +21,7 @@ const service_data = [
     {
         id: 3,
         link: "/design-analysis",
+        icon: "fas fa-chart-mixed fa-6x",
         img: "/assets/img/services/icon/it-service-3.png",
         title: "Design Analysis",
         des: <>Our reputation as a leader in structural engineering design is widely recognized.</>
@@ -28,7 +30,7 @@ const service_data = [
     // service home 5
     {
         id: 4,
-        icon: "flaticon-diaphragm",
+        icon: "fas fa-file-invoice-dollar fa-6x",
         link: "/estimation",
         img: "/assets/img/services/icon/it-service-3.png",
         title: "Estimation",

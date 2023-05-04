@@ -15,11 +15,11 @@ const ServiceArea = () => {
                 data-aos-duration={item.duration}
               >
                 <div className="it-service__item mb-30 text-center">
-                  {/* <div className="it-servicce__item-img mb-35">
-                    <img src={item.icon} alt="them-pure" />
-                  </div> */}
+                   <div className="it-servicce__item-img mb-35">
+                    <i className={item.icon} style={{color: "#fdc42a",}} ></i>
+                  </div> 
                   <div className="it-servicce__item-img mb-35">
-                    <img src={item.img} alt="image-here" />
+                    {/* <img src={item.img} alt="image-here" /> */}
                   </div>
                   <h3 className="it-service__item-title mb-20">
                     <a href={item.link}>{item.title}</a>
