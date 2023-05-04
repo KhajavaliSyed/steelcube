@@ -2,29 +2,30 @@ import React from "react";
 // social_links
 const social_links = [
   {
-    link: "http://facebook.com",
+    link: "https://www.linkedin.com/company/steelcube-engneering-pvt-ltd/",
+    target: "_blank",
+    icon: "fab fa-linkedin",
+    name: "LinkedIn",
+  },
+  {
+    link: "https://www.instagram.com/steelcube_engineering/",
+    target: "_blank",
+    icon: "fab fa-instagram",
+    name: "Instagram",
+  },
+  {
+    link: "https://www.facebook.com/Steelcubeeng",
     target: "_blank",
     icon: "fab fa-facebook-f",
     name: "Facebook",
   },
   {
-    link: "http://twitter.com",
+    link: "https://twitter.com/SteelcubeLtd",
     target: "_blank",
     icon: "fab fa-twitter",
     name: "Twitter",
   },
-  {
-    link: "https://www.behance.com/",
-    target: "_blank",
-    icon: "fab fa-behance",
-    name: "Behance",
-  },
-  {
-    link: "https://www.youtube.com/",
-    target: "_blank",
-    icon: "fab fa-youtube",
-    name: "Youtube",
-  },
+  
 ];
 
 const SocialLinks = () => {

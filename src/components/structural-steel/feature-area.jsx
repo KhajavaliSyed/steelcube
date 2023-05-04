@@ -4,7 +4,7 @@ import React from 'react';
 const feature_content_data = {
     title_one: "Key Services for Design, Modeling, and Analysis",
     description: <>Our key services include everything from basic design concepts to detailed structure designs 
-    and backup calculations. We can also design steel, rebar, concrete, and pre-cast elements, and provide modeling and analysis services. </>,
+    and backup calculations. For structural and miscellaneous steel, we provide modeling and analysis services. </>,
     list_one: [
         <>Industry-Standard Adherence for Global Services</>,
         <>Expert Detailers for Accurate, Timely Services</>,

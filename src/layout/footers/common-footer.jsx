@@ -26,7 +26,7 @@ const footer_links = [
     col: "col-xl-2",
     id: "",
     links: [
-      { title: "Structural Stell Detailing", link: "/structural-steel" },
+      { title: "Structural Steel Detailing", link: "/structural-steel" },
       { title: "Connection Design and Stamping", link: "/connection-design" },
       { title: "Design Analysis", link: "/design-analysis" },
       { title: "Estimation", link: "/estimation" },
