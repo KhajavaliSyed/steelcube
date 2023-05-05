@@ -45,8 +45,8 @@ const footer_content ={
    about: "About Us",
    about_des: <>Welcome to Steelcube Engineering, your trusted partner in structural engineering design. We specialize in providing high-quality services to fabricators and builders who need reliable structural steel connection design solutions.</>,
    phone_icon: "/assets/img/footer/call-icon.png",
-   address: <>30 N Gould St Ste R, Sheridan, WY, 82801</>,
-   phone: <>209 682 0710</>,
+   address: <> 30 N Gould St Ste R, Sheridan, WY, 82801</>,
+   phone: <> 209 682 0710</>,
    
 }
 
@@ -101,7 +101,7 @@ const Footer = ({tp_border}) => {
               </div>
               <div className="bs-footer__main pb-10 pt-80 tp-border-bottom">
                 <div className="row justify-content-center">
-                  <div className="col-xl-3 col-md-6">
+                  <div className="col-xl-4 col-md-6">
                     <div className="tp-footer__widget mb-40">
                       <h3 className="tp-footer__widget-title mb-35">{about}</h3>
                       <p className="pr-40">{about_des}</p>
@@ -110,7 +110,7 @@ const Footer = ({tp_border}) => {
                       
                       <b>
                         
-                        <span className="d-block mb-0"><i className="fas fa-location" color='#ecc322'></i>{address}</span>
+                        <span className="d-block mb-0"><i className="fas fa-location-dot" color='#ecc322'></i>{address}</span>
                         
                           <span className="call-icon">
                             {/* <img src={phone_icon} alt="" /> */}
@@ -125,7 +125,7 @@ const Footer = ({tp_border}) => {
                   <CommonFooter />
                   {/* Coommon Footer end */}
 
-                  <div className="col-xl-4 col-md-6">
+                  <div className="col-xl-3 col-md-6">
                     <div className="tp-footer__widget bs-pl-60 mb-40">
                       <h3 className="tp-footer__widget-title mb-35">
                         Subscribe Now

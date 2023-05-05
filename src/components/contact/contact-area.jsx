@@ -63,9 +63,9 @@ const ContactArea = () => {
                   <div key={i} className="col-lg-6">
                     <div className="contact-cta-item mb-30">
                       <h3>{item.titel}</h3> <br />
-                      <a href={`mailto:${item.email}`}>{item.email}</a> <br />
-                      <a >{item.address}</a> <br />
-                      <a href={`tel:${item.tel}`}>{item.phone}</a>
+                      <a href={`mailto:${item.email}`}><i className="fas fa-envelope"></i>&nbsp;{item.email}</a> <br />
+                      <a ><i className="fas fa-location-dot"></i>&nbsp;{item.address}</a> <br />
+                      <a href={`tel:${item.tel}`}><i className="fas fa-phone"></i>&nbsp;{item.phone}</a>
                     </div>
                   </div>
                 ))}
