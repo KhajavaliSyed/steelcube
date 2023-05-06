@@ -5,7 +5,7 @@ import React from 'react';
 const about_content_2  ={
     img: "/assets/img/about/ab-about-img.jpg",
     title: <>Your one-stop shop for structural steel detailing.</>,
-    description: <>steelcubeeng.com is the leading structural steel detailing 
+    description: <>SteelCube is the leading structural steel detailing 
                   and design firm that offers a comprehensive range of services 
                   for both domestic and international customers. <br /> 
                 <br />
