@@ -6,16 +6,22 @@ const CallToActionForm = ({style_sv_details}) => {
   const [email, setEmail] = useState("");
   // const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
-  // const messages = await kv.get<{name: String, email: String,}>
+  const [status, setStatus] = useState(false);
+  const [buttonText, setButtonText] = useState("SUBMIT REQUEST");
+  const [submit, setSubmit] = useState("");
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();
+    setStatus(true);
+    setButtonText("Sending Message");
     setFullName(event.target.fullName.value);
     setEmail(event.target.email.value);
     // //setPhone(event.target.phone.value);
     setMessage(event.target.message.value);
 
-    await fetch("/api/sendEmail", {
+    await Promise.all([
+      await fetch("/api/sendEmail", {
         body: JSON.stringify({toName: fullName, 
           toEmail: email, 
           fromName: 'Steelcube Engineering',
@@ -26,21 +32,24 @@ const CallToActionForm = ({style_sv_details}) => {
            "content-type": "application/json"
           },
         method: "POST"
-    }).then(response => response.json()).then(response => console.log(response)).catch(err => console.error(err));
+      }).then(response => response.json()).then(response => setSubmit("Request Submitted Successfully")).catch(err => setSubmit("Technical Error. Please try after some time.")),
 
-    await fetch("/api/sendEmail", {
-      body: JSON.stringify({toName: 'Steelcube Engineering',
-        toEmail: 'info@steelcubeeng.com', 
-        fromName: fullName,
-        fromEmail: email,
-        message: message,
-        subject: 'New Contact Info'}),
-      headers: {
-         "content-type": "application/json"
-        },
-      method: "POST"
-  }).then(response => response.json()).then(response => console.log(response)).catch(err => console.error(err));    
-    
+      await fetch("/api/sendEmail", {
+        body: JSON.stringify({toName: 'Steelcube Engineering',
+          toEmail: 'info@steelcubeeng.com', 
+          fromName: fullName,
+          fromEmail: email,
+          message: message,
+          subject: 'New Contact Info'}),
+        headers: {
+          "content-type": "application/json"
+          },
+        method: "POST"
+      }).then(response => response.json()).then(response => console.log(response)).catch(err => console.error(err))    
+      
+    ]);
+    setStatus(false);
+    setButtonText("SUBMIT REQUEST");
   };
   return (
     <>
@@ -102,9 +111,10 @@ const CallToActionForm = ({style_sv_details}) => {
               </span>
               <textarea  id="message" name="message" required placeholder="Message" onChange={e => setMessage(e.target.value)}></textarea>
             </div>
-            <button type="submit" className="it-cta-form-submit border-0">
-              Submit Request
+            <button type="submit" disabled={status} className="it-cta-form-submit border-0">
+             {status? <i className="fas fa-spinner fa-spin"></i> : ""} {buttonText}
             </button>
+            {submit? <p>{submit}</p> : ''}
           </div>
           
 
