@@ -20,10 +20,10 @@ const Sidebar = ({isActive, setIsActive}) => {
                 </div>
                 <p> At Steelcube Engineering, we bring your structural steel projects to life with precision and expertise.</p>
                 <div className="tp-offcanvas__social">
-                    <span> <a href="https://www.linkedin.com/company/steelcube-engneering-pvt-ltd/" target="_blank"><i className="fab fa-linkedin"></i></a></span>
-                    <span> <a href="https://www.instagram.com/steelcube_engineering/" target="_blank"><i className="fab fa-instagram"></i></a></span>
-                    <span> <a href="https://www.facebook.com/Steelcubeeng" target="_blank"><i className="fab fa-facebook"></i></a></span>
-                    <span> <a href="https://twitter.com/SteelcubeLtd" target="_blank"><i className="fab fa-twitter"></i></a></span>
+                    <span> <a href="https://www.linkedin.com/company/steelcube-engneering-pvt-ltd/" rel="noopener" target="_blank"><i className="fab fa-linkedin"></i></a></span>
+                    <span> <a href="https://www.instagram.com/steelcube_engineering/" rel="noopener" target="_blank"><i className="fab fa-instagram"></i></a></span>
+                    <span> <a href="https://www.facebook.com/Steelcubeeng" rel="noopener" target="_blank"><i className="fab fa-facebook"></i></a></span>
+                    <span> <a href="https://twitter.com/SteelcubeLtd" rel="noopener" target="_blank"><i className="fab fa-twitter"></i></a></span>
                 </div>
             </div>
             <div className="tp-offcanvas__widget mb-40 d-none d-xl-block">

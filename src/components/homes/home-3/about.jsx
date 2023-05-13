@@ -37,9 +37,9 @@ const About = () => {
                     {/* <span className="tp-section__subtitle mb-15 shadow-none text-grey p-0">
                       Since From 2000
                     </span> */}
-                    <h2 className="tp-section__title mb-30">
+                    <h1 className="tp-section__title mb-30">
                     Structural Steel Detailing, Elevated to the <span>Next Level</span>{" "}
-                    </h2>
+                    </h1>
                   </div>
                 </div>
                 <div className="tp-da-about-fea pb-25 mb-10">

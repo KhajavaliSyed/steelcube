@@ -89,12 +89,12 @@ const ProjectArea = () => {
                   <span className="tp-section__subtitle white-bg mb-15 shadow-none text-grey p-0 wow tpfadeUp"> 
                     Projects
                   </span>
-                  <h2
+                  <h1
                     className="tp-section__title mb-55 wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
                     Our <span>Projects</span> 
-                  </h2>
+                  </h1>
                 </div>
               </div>
             </div>

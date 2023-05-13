@@ -55,12 +55,12 @@ const ServiceArea = () => {
                   <span className="tp-section__subtitle mb-15 shadow-none text-grey p-0 wow tpfadeUp ">
                     Our Services
                   </span>
-                  <h2
+                  <h1
                     className="tp-section__title mb-30 wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
                     Services We <span>Provide</span>
-                  </h2>
+                  </h1>
                 </div>
               </div>
             </div>

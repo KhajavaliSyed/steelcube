@@ -32,7 +32,7 @@ const SocialLinks = () => {
   return (
     <>
       {social_links.map((item, i) => (
-        <a key={i} target="_blank" href={item.link}>
+        <a key={i} target="_blank" rel="noopener" href={item.link}>
           <i className={item.icon}></i>
         </a>
       ))}
@@ -80,7 +80,7 @@ export const SocialLinksHomeTwo = () => {
   return (
     <>
       {social_links_home_two.map((item, i) => (
-        <a key={i} target="_blank" href={item.link}>
+        <a key={i} target="_blank" rel="noopener" href={item.link}>
           <i className={item.icon}></i>
         </a>
       ))}
