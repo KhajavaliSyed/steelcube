@@ -65,7 +65,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Designed and Developed By <a href="">AnvayuOne</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> Designed and Developed By <a target="_blank" href="https://anvayuone.com">AnvayuOne</a> - {new Date().getFullYear()} </>,
 };
 
 const { copy_right_info } = footer_content;
