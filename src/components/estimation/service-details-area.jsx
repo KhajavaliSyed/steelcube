@@ -7,7 +7,7 @@ const service_details_content = {
     title: "Modeling for Accurate Estimation",
     desctiption: <>At Steelcube, we utilize the latest technology and software such as SDS/2 and Tekla Structure to create detailed 3D models for steel structure estimation. 
     These models allow us to extract various scope lists, Advance Bill of Material (ABM), and KISS reports with essential information once the job is awarded.</>,
-    phone: "209 682 0710 ",
+    phone: "950 240 2484 ",
 }
 const {title, desctiption, phone}  = service_details_content
 

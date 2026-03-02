@@ -16,7 +16,7 @@ const about_content = {
         <>We strongly believe in providing open source solutions</>,
     ],
     about_btn: "get in touch",
-    phone: "209 682 0710",
+    phone: "950 240 2484",
 
 }
 

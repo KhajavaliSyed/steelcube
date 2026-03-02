@@ -46,7 +46,7 @@ const footer_content ={
    about_des: <>Welcome to Steelcube Engineering, your trusted partner in structural engineering design. We specialize in providing high-quality services to fabricators and builders who need reliable structural steel connection design solutions.</>,
    phone_icon: "/assets/img/footer/call-icon.png",
    address: <> 603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081</>,
-   phone: <> 209 682 0710</>,
+   phone: <> 950 240 2484</>,
    
 }
 

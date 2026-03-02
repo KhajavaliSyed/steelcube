@@ -13,7 +13,7 @@ const contact_data = [
     titel: "United States Office",
     email: "info@steelcubeeng.com",
     address: "603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081",
-    phone: "209 682 0710",
+    phone: "950 240 2484",
     tel: "2096820710",
   },
   {

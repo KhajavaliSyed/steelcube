@@ -49,7 +49,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                     <span className="icon mr-20"></span>
                     <span>
                          <span className="d-block mb-0">603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081</span>
-                        <b><img src="/assets/img/icons/ofc-locaiton.png" alt="" /><a href="callto:2096820710"> Call Us: 209 682 0710 </a></b>
+                        <b><img src="/assets/img/icons/ofc-locaiton.png" alt="" /><a href="callto:2096820710"> Call Us: 950 240 2484 </a></b>
                     </span>
                 </div>
             </div>
