@@ -14,7 +14,7 @@ const contact_data = [
     email: "info@steelcubeeng.com",
     address: "603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081",
     phone: "950 240 2484",
-    tel: "2096820710",
+    tel: "9502402484",
   },
   {
     id: 3,

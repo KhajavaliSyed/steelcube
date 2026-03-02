@@ -56,7 +56,7 @@ const FooterThree = ({style_4}) => {
                                             alt="" /></span>
                                     <span>
                                          <span className="d-block mb-0">603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081</span>
-                                        <b><a href="callto:2096820710"> Call Us: 950 240 2484 </a></b>
+                                        <b><a href="callto:9502402484"> Call Us: 950 240 2484 </a></b>
                                     </span>
                                 </div>
                                 <div className="tp-footer-cta d-flex align-items-center mb-30">

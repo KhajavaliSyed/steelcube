@@ -22,7 +22,7 @@ const FooterSix = () => {
                                     <span className="call-icon"></span>
                                     <p className="mb-0">
                                         <span>603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081</span> <br />
-                                        <b><img src="/assets/img/icons/law-call.png" alt="" /><a href="callto:2096820710"> Call Us: 950 240 2484 </a></b>
+                                        <b><img src="/assets/img/icons/law-call.png" alt="" /><a href="callto:9502402484"> Call Us: 950 240 2484 </a></b>
                                     </p>
                                 </div>
                                 <div className="tp-footer-cta d-flex align-items-center mb-30">

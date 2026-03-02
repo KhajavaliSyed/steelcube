@@ -45,7 +45,7 @@ const HeaderThree = () => {
                     </a>
                     <p className="mt-10 mb-0">
                       or <b>call:</b>
-                      <a href="tel:+12096820710">+1 950 240 2484 </a>
+                      <a href="tel:+919502402484">+91 950 240 2484 </a>
                     </p>
                   </div>
                 </div>
