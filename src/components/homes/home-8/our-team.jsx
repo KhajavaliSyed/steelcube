@@ -6,7 +6,7 @@ const OurTeam = () => {
     return (
         <>
             <div className="ca-team-area theme-bg-7 pt-120 pb-90">
-            <div className="container">
+            {/* <div className="container">
                 <div className="row">
                     <div className="col-12 wow tpfadeUp">
                         <div className="section-title-wraper">
@@ -41,7 +41,7 @@ const OurTeam = () => {
                         )
                     }
                 </div>
-            </div>
+            </div> */}
         </div>
         </>
     );

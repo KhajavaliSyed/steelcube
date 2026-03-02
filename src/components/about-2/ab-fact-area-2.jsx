@@ -10,12 +10,12 @@ const ab_fact_data = [
     },
     {
         id: 2,
-        count_number: 60,
+        count_number: 100,
         title: "Global Clients",
     },
     {
       id: 3,
-      count_number: 200,
+      count_number: 500,
       title: "Successful Projects",
   },
   

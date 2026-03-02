@@ -55,7 +55,7 @@ const FooterThree = ({style_4}) => {
                                     <span className="call-icon"><img src="/assets/img/footer/footer-rbg-call.png"
                                             alt="" /></span>
                                     <span>
-                                         <span className="d-block mb-0">30 N Gould St Ste R, Sheridan, WY, 82801</span>
+                                         <span className="d-block mb-0">603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081</span>
                                         <b><a href="callto:2096820710"> Call Us: 209 682 0710 </a></b>
                                     </span>
                                 </div>

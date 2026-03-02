@@ -12,7 +12,7 @@ const contact_data = [
     id: 2,
     titel: "United States Office",
     email: "info@steelcubeeng.com",
-    address: "30 N Gould St Ste R, Sheridan, WY, 82801",
+    address: "603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081",
     phone: "209 682 0710",
     tel: "2096820710",
   },

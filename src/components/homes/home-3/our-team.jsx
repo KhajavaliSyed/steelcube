@@ -18,7 +18,7 @@ const OurTeam = () => {
   return (
     <>
       <div className="da-team-area pt-120 pb-90">
-        <div className="container">
+        {/* <div className="container">
           <div className="row align-items-center">
             <div className="col-md-8">
               <div className="section-title-wraper mb-60">
@@ -72,7 +72,7 @@ const OurTeam = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -6,14 +6,13 @@ const OurTeam = () => {
     return (
         <>
             <div className="da-team-area pt-120 pb-90 theme-bg-7">
-         <div className="container">
+         {/* <div className="container">
             <div className="row align-items-center justify-content-center">
                <div className="col-md-6">
                   <div className="section-title-wraper mb-60">
                      <div className="tp-section text-center">
                         <h2 className="tp-section__title mb-30">Meet with team</h2>
-                        {/* <p>Lawyer's content marketing strategy should include adding & updating
-                           your most important and high-performing.</p> */}
+                        
                      </div>
                   </div>
                </div>
@@ -25,13 +24,7 @@ const OurTeam = () => {
                      <div className="ca-team-item mb-30">
                         <div className="ca-team-item__img ca-team-item-after w-img mb-35 fix">
                            <img src={item.img} alt="" />
-                           {/* <div className="ca-team-item__img-social">
-                              <a href="#"><i className="fab fa-facebook-f"></i></a>
-                              <a href="#"><i className="fab fa-twitter"></i></a>
-                              <a href="#"><i className="fab fa-behance"></i></a>
-                              <a href="#"><i className="fab fa-youtube"></i></a>
-                              <a href="#"><i className="fab fa-linkedin"></i></a>
-                           </div> */}
+                           
                         </div>
                         <div className="ca-team-item__content">
                            <h3 className="ca-team-item__content-title">{item.name}</h3>
@@ -42,7 +35,7 @@ const OurTeam = () => {
                     )  
                 }
             </div>
-         </div>
+         </div> */}
       </div>
         </>
     );

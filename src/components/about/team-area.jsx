@@ -14,7 +14,7 @@ const TeamArea = () => {
     return (
         <>
             <div className="da-team-area pt-120 pb-90">
-         <div className="container">
+         {/* <div className="container">
             <div className="row align-items-center justify-content-center">
                <div className="col-md-6">
                   <div className="section-title-wraper mb-60">
@@ -42,7 +42,7 @@ const TeamArea = () => {
                 )
             }
             </div>
-         </div>
+         </div> */}
       </div>
         </>
     );

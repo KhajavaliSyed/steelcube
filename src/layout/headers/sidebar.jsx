@@ -48,7 +48,7 @@ const Sidebar = ({isActive, setIsActive}) => {
                 <div className="tp-offcanvas-cta d-flex align-items-center pb-20  mb-30">
                     <span className="icon mr-20"></span>
                     <span>
-                         <span className="d-block mb-0">30 N Gould St Ste R, Sheridan, WY, 82801</span>
+                         <span className="d-block mb-0">603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081</span>
                         <b><img src="/assets/img/icons/ofc-locaiton.png" alt="" /><a href="callto:2096820710"> Call Us: 209 682 0710 </a></b>
                     </span>
                 </div>

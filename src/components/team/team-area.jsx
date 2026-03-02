@@ -6,7 +6,7 @@ const TeamArea = () => {
   return (
     <>
       <div className="da-team-area pt-120 pb-90">
-        <div className="container">
+        {/* <div className="container">
           <div className="row">
             {team_data.slice(7, 13).map((item, i) => (
               <div key={i} className="col-lg-4 col-md-6">
@@ -39,7 +39,7 @@ const TeamArea = () => {
               </span>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

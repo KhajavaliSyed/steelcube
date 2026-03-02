@@ -45,7 +45,7 @@ const footer_content ={
    about: "About Us",
    about_des: <>Welcome to Steelcube Engineering, your trusted partner in structural engineering design. We specialize in providing high-quality services to fabricators and builders who need reliable structural steel connection design solutions.</>,
    phone_icon: "/assets/img/footer/call-icon.png",
-   address: <> 30 N Gould St Ste R, Sheridan, WY, 82801</>,
+   address: <> 603, KTC Illumination, vittal rao Nagar, Hi-tech City, Madhapur, Hyderabad 500081</>,
    phone: <> 209 682 0710</>,
    
 }
